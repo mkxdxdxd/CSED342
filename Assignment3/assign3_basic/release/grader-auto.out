@@ -1,0 +1,301 @@
+{'extraCredit': 0,
+ 'fatalError': False,
+ 'maxExtraCredit': 0,
+ 'maxTotalPoints': 11,
+ 'messages': [],
+ 'mode': 'auto',
+ 'parts': [{'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 2,
+            'messages': [],
+            'name': '1a-1-basic',
+            'points': 1,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 2,
+            'messages': [],
+            'name': '1a-2-basic',
+            'points': 1,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 3,
+            'messages': [],
+            'name': '1a-3-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 3,
+            'messages': [],
+            'name': '1a-4-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 2,
+            'messages': ["Exception thrown: <class 'NotImplementedError'> -- ",
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\grader.py", '
+                         'line 175, in t_1b_1\n'
+                         "    grader.requireIsEqual('pepper on image', "
+                         "submission.segmentKWords(3, 'pepperonimage', "
+                         'unigramCost))\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\submission.py", '
+                         'line 80, in segmentKWords\n'
+                         '    raise NotImplementedError  # remove this line '
+                         'before writing code\n'],
+            'name': '1b-1-basic',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 2,
+            'maxSeconds': 3,
+            'messages': ["Exception thrown: <class 'NotImplementedError'> -- ",
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\grader.py", '
+                         'line 193, in t_1b_2\n'
+                         '    pred = submission.segmentKWords(k, text, '
+                         'unigramCost)\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\submission.py", '
+                         'line 80, in segmentKWords\n'
+                         '    raise NotImplementedError  # remove this line '
+                         'before writing code\n'],
+            'name': '1b-2-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 3,
+            'maxSeconds': 3,
+            'messages': ["Exception thrown: <class 'NotImplementedError'> -- ",
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\grader.py", '
+                         'line 207, in t_1b_3\n'
+                         '    pred = submission.segmentKWords(k, part, '
+                         'unigramCost)\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\submission.py", '
+                         'line 80, in segmentKWords\n'
+                         '    raise NotImplementedError  # remove this line '
+                         'before writing code\n'],
+            'name': '1b-3-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 2,
+            'messages': [],
+            'name': '2a-1-basic',
+            'points': 1,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 2,
+            'messages': [],
+            'name': '2a-2-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 3,
+            'messages': [],
+            'name': '2a-3-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 3,
+            'messages': [],
+            'name': '2a-4-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 2,
+            'messages': ["Exception thrown: <class 'TypeError'> -- "
+                         'VowelInsertionProblem.__init__() takes 4 positional '
+                         'arguments but 5 were given',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\grader.py", '
+                         'line 375, in t_2b_1\n'
+                         "    grader.requireIsEqual('beam', "
+                         "submission.insertLimitedVowels('', ['bm'], "
+                         'bigramCost, possibleFills))\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\submission.py", '
+                         'line 180, in insertLimitedVowels\n'
+                         '    '
+                         'ucs.solve(VowelInsertionProblem(impossibleVowels,queryWords,bigramCost,possibleFills))\n'],
+            'name': '2b-1-basic',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 2,
+            'maxSeconds': 2,
+            'messages': ["Exception thrown: <class 'TypeError'> -- "
+                         'VowelInsertionProblem.__init__() takes 4 positional '
+                         'arguments but 5 were given',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\grader.py", '
+                         'line 396, in t_2b_2\n'
+                         '    pred = '
+                         'submission.insertLimitedVowels(impossible_vowels, '
+                         'word_seq, bigramCost, possibleFills)\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\submission.py", '
+                         'line 180, in insertLimitedVowels\n'
+                         '    '
+                         'ucs.solve(VowelInsertionProblem(impossibleVowels,queryWords,bigramCost,possibleFills))\n'],
+            'name': '2b-2-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 3,
+            'maxSeconds': 3,
+            'messages': ["Exception thrown: <class 'TypeError'> -- "
+                         'VowelInsertionProblem.__init__() takes 4 positional '
+                         'arguments but 5 were given',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\grader.py", '
+                         'line 410, in t_2b_3\n'
+                         '    pred = '
+                         'submission.insertLimitedVowels(impossible_vowels, '
+                         'ws, bigramCost, possibleFills)\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\submission.py", '
+                         'line 180, in insertLimitedVowels\n'
+                         '    '
+                         'ucs.solve(VowelInsertionProblem(impossibleVowels,queryWords,bigramCost,possibleFills))\n'],
+            'name': '2b-3-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 2,
+            'messages': [],
+            'name': '3a-1-basic',
+            'points': 1,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 2,
+            'messages': [],
+            'name': '3a-2-basic',
+            'points': 1,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 3,
+            'messages': [],
+            'name': '3a-3-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 3,
+            'maxSeconds': 3,
+            'messages': [],
+            'name': '3a-4-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 3,
+            'maxSeconds': 3,
+            'messages': [],
+            'name': '4a-1-basic',
+            'points': 3,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 1,
+            'maxSeconds': 3,
+            'messages': [],
+            'name': '4a-2-basic',
+            'points': 1,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 3,
+            'maxSeconds': 8,
+            'messages': ["Exception thrown: <class 'TypeError'> -- 'NoneType' "
+                         'object is not callable',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\grader.py", '
+                         'line 557, in t_4b_test\n'
+                         '    pred_astar = '
+                         '[submission.fastSegmentAndInsert(part, smoothCost, '
+                         'wordCost, possibleFills) for part in parts]\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\grader.py", '
+                         'line 557, in <listcomp>\n'
+                         '    pred_astar = '
+                         '[submission.fastSegmentAndInsert(part, smoothCost, '
+                         'wordCost, possibleFills) for part in parts]\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\submission.py", '
+                         'line 351, in fastSegmentAndInsert\n'
+                         '    '
+                         'ucs.solve(JointSegmentationInsertionProblem(query, '
+                         'bigramCost, possibleFills), heuristic)\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\util.py", '
+                         'line 46, in solve\n'
+                         '    frontier.update(startState, '
+                         'heuristic(startState))\n'],
+            'name': '4b-1-hidden',
+            'points': 0,
+            'seconds': 0},
+           {'description': '',
+            'extraCredit': False,
+            'maxPoints': 3,
+            'maxSeconds': 5,
+            'messages': ["Exception thrown: <class 'TypeError'> -- 'NoneType' "
+                         'object is not callable',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\grader.py", '
+                         'line 557, in t_4b_test\n'
+                         '    pred_astar = '
+                         '[submission.fastSegmentAndInsert(part, smoothCost, '
+                         'wordCost, possibleFills) for part in parts]\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\grader.py", '
+                         'line 557, in <listcomp>\n'
+                         '    pred_astar = '
+                         '[submission.fastSegmentAndInsert(part, smoothCost, '
+                         'wordCost, possibleFills) for part in parts]\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\submission.py", '
+                         'line 351, in fastSegmentAndInsert\n'
+                         '    '
+                         'ucs.solve(JointSegmentationInsertionProblem(query, '
+                         'bigramCost, possibleFills), heuristic)\n',
+                         '  File '
+                         '"C:\\Users\\samsung\\Desktop\\assign3\\release\\util.py", '
+                         'line 46, in solve\n'
+                         '    frontier.update(startState, '
+                         'heuristic(startState))\n'],
+            'name': '4b-2-hidden',
+            'points': 0,
+            'seconds': 0}],
+ 'totalPoints': 9}

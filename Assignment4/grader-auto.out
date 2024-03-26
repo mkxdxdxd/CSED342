@@ -1,0 +1,17 @@
+{'extraCredit': 0,
+ 'fatalError': False,
+ 'maxExtraCredit': 0,
+ 'maxTotalPoints': 3,
+ 'messages': [],
+ 'mode': 'auto',
+ 'parts': [{'description': 'Basic test for blackjackFeatureExtractor.  Runs '
+                           'Qlearning using blackjackFeatureExtractor, then '
+                           'checks to see that Q-values are correct.',
+            'extraCredit': False,
+            'maxPoints': 3,
+            'maxSeconds': 3,
+            'messages': [],
+            'name': '3c-1-basic',
+            'points': 3,
+            'seconds': 0}],
+ 'totalPoints': 3}
